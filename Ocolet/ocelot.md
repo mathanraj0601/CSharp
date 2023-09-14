@@ -1,16 +1,18 @@
 # Ocelot
+ocelot is a open source Nuget package which allows us to create API Gateway 
 
-ocelet is a open source nuget package which allows us to create API Gateway 
+![ocelot-block-diagram](https://github.com/mathanraj0601/CSharp/assets/98396468/f8b1f834-058d-4cfa-91fd-fb2e9e41cee6)
+
 
 ## What is a  Gateway
 
-Gateway is the api that act as a interface to the client application and underlying web API's 
+Gateway is the API that acts as an interface to the client application and underlying web APIs 
 
 ## Why Gateway
 
-- It act as a proxy for the web api so we are not directly exposing URl to the client application
-- It help us to implement middleware common for all API's and we can able to do authorization using JWT, rate limiting etc.,
-- It make all the api to have common gateway / entry. There will be a chance of this api gateway going down but api gateway provides lost of advantages mentioned above.
+- It acts as a proxy for the web API so we are not directly exposing URl to the client application
+- It helps us to implement middleware common for all API and we can able to do authorization using JWT, rate limiting, etc.,
+- It makes all the API to have a common gateway/entry. There will be a chance of this API gateway going down but API gateway provides lot of advantages mentioned above.
 
 ## Ocelet in c#
 
